@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Photo Gallery</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+	<h1>Photo Gallery</h1>
+
+	<span>
+		<img id="ironman" src="https://i.pinimg.com/originals/cd/54/37/cd5437f74d2f3f9938a53756d0aea636.jpg">
+	</span>
+
+	<span>
+		<img id="thor" src="https://i.pinimg.com/originals/80/42/9b/80429bd64393e01d06f530623c1c6fd8.jpg">
+	</span>
+
+	<span>
+		<img id="hankpym" src="https://upload.wikimedia.org/wikipedia/en/thumb/e/ef/Hank_pym_1.jpg/250px-Hank_pym_1.jpg">
+	</span>
+
+	<span>
+		<img id="wasp" src="https://lumiere-a.akamaihd.net/v1/images/avengers-characterthumbnail-wasp_62fa2b40.jpeg?region=0%2C0%2C300%2C300">
+	</span>
+
+	<span>
+		<img id="hulk" src="https://i.pinimg.com/564x/3d/c8/26/3dc826c7103ae621402e887c55f2cdbf.jpg">
+	</span>
+
+	<span>
+		<img id="captain_america" src="https://i.pinimg.com/originals/d5/81/79/d58179ac3e5781037d0fbf2bf3a97cdc.jpg">
+	</span>
+
+
+
+	<h2>Sliding Gallery</h2>
+
+
+
+
+
+	<div class="container">
+		<div class="row">
+			<div class="#">
+				<div id="my-slider" class="carousel slide container" data-ride="carousel">
+
+					<!--indicators dot nav-->
+					<ol class="carousel-indicators">
+						<li data-target="#my-slider" data-slide-to="0" class="active"></li>
+						<li data-target="#my-slider" data-slide-to="1"></li>
+						<li data-target="#my-slider" data-slide-to="2"></li>
+					</ol>
+					<!--wrapper for slides-->
+					<div class="carousel-inner" role="listbox">
+						<div class="item one active">
+							<img src="https://lumiere-a.akamaihd.net/v1/images/avengers-characterthumbnail-wasp_62fa2b40.jpeg?region=0%2C0%2C300%2C300" alt="wasp" />
+						</div>
+
+						<div class="item two">
+							<img src="https://upload.wikimedia.org/wikipedia/en/thumb/e/ef/Hank_pym_1.jpg/250px-Hank_pym_1.jpg" alt="hank_pym" />
+						</div>
+
+						<div class="item three">
+							<img src="https://i.pinimg.com/originals/d5/81/79/d58179ac3e5781037d0fbf2bf3a97cdc.jpg" alt="captain america" />
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+</body>
+
+</html>
